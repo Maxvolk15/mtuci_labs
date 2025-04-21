@@ -5,19 +5,20 @@ from pydantic import BaseModel
 app = FastAPI()
 
 @app.get('/{summary}')
-def wik_summary(summary: str):
+def wiki_summary(summary: str):
     '''Выводит суммарную информацию по введённому запросу'''
     return "Суммарная информация: " + wik.summary(summary)
 
-@app.get('/wiki/{search}')
-def wik_search(request: str):
-    '''Выводит URL-адрес страницы с нужным запросом'''
-    return "URL-страница: " + wik.page(request).url
+@app.get('/search/')
+def wiki_search(search: str, request: int=0):
+    '''Находит и выводит определённое количество заданных(похожих) заголовков статей'''
+    return f"Заголовки по запросу {search}: " + ', '.join(wik.search(search, request))
 
 class Request(BaseModel):
-    img: str
+    title: str
+    img: int
 
 @app.post('/')
 def wiki_search_img(wiki_img: Request):
-    '''Даёт первое изображение из статьи'''
-    return "Ссылка на изображение: " + wik.page(wiki_img.img).images[0]
+    '''Даёт нужное изображение из статьи'''
+    return Request(title=wik.page(wiki_img.title).images[wiki_img.img-1], img=wiki_img.img)
