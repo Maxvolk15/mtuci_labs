@@ -10,8 +10,8 @@ public class Palindrome {
 
     public static String reverseString(String s) {
         String revString = "";
-        for (int i = s.length()-1; i >= 0; i--) {
-            revString += s.charAt(i);
+        for (int i = 0; i <= s.length()-1; i++) {
+            revString = s.charAt(i) + revString;
         }
         return revString;
     }
