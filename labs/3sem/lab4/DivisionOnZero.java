@@ -20,6 +20,8 @@ public class DivisionOnZero {
             System.out.println("Результат деления: " + result);
         } catch (CustomDivisionException e) {
             System.out.println(e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Ошибка: " + e.getMessage());
         }
     }
 }
