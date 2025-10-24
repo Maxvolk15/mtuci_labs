@@ -4,7 +4,7 @@ import java.io.*;
 
 public class Copying {
     public static void main(String[] args) {
-        Path file = Paths.get("File.txt");
+        Path file = Paths.get("Files.txt");
         Path copy = Paths.get("CopyFile.txt");
 
         try {
@@ -13,7 +13,7 @@ public class Copying {
         } catch (NoSuchFileException e) {
             System.out.println("Ошибка: файл " + e.getMessage() + " не найден.");
         } catch (IOException e) {
-            System.out.println("Ошибка: " + e.getMessage());
+            System.out.println("Ошибка: " + e.toString());
         }
     }
 }
