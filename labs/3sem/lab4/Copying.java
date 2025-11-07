@@ -9,7 +9,7 @@ public class Copying {
 
         try {
             Files.copy(file, copy, StandardCopyOption.REPLACE_EXISTING);
-            System.out.println("Файл File.txt скопирован в CopyFile.txt");
+            System.out.println("Файл " + file + " успешно скопирован в " + copy + " :)");
         } catch (NoSuchFileException e) {
             System.out.println("Ошибка: файл " + e.getMessage() + " не найден.");
         } catch (IOException e) {
@@ -17,4 +17,3 @@ public class Copying {
         }
     }
 }
-// Не сущ файл - выдать ошибку

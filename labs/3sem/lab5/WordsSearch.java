@@ -22,7 +22,7 @@ public class WordsSearch {
             System.out.println("Буква не указана");
             return;
         }
-        Pattern patt = Pattern.compile("\\b[" + letter.toLowerCase() + letter.toUpperCase() + "][a-zA-Z]*\\b");
+        Pattern patt = Pattern.compile("\\b[" + letter.toLowerCase() + letter.toUpperCase() + "][a-zA-Z]+\\b");
         Matcher match = patt.matcher(text);
         System.out.println("Слова в тексте, начинающиеся на букву " + letter + ": ");
         boolean flag = true;

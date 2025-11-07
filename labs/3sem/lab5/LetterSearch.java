@@ -6,7 +6,7 @@ import java.util.regex.*;
 public class LetterSearch {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Input: ");
+        System.out.print("Текст: ");
         String text = scan.nextLine().trim();
 
         Pattern patt = Pattern.compile("[a-z][A-Z]");
