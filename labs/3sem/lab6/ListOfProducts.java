@@ -8,10 +8,6 @@ public class ListOfProducts {
     }
 
     public void getSoldProducts() {
-        if (soldProducts.isEmpty()) {
-            System.out.println("Ничего не продано.");
-            return;
-        }
         System.out.println("Список проданных продуктов:");
         for (int i = 0; i < soldProducts.size(); i++) {
             System.out.println(i + 1 + ". " + soldProducts.get(i));
@@ -27,19 +23,17 @@ public class ListOfProducts {
     }
 
     public String getMostSold() {
-        if (soldProducts.isEmpty()) {
-            System.out.println("Ничего не продано.");
-        }
-
         ArrayList<String> names = new ArrayList<>();
         ArrayList<Integer> counts = new ArrayList<>();
-
+        
         for (Table p: soldProducts) {
-            if (names.indexOf(p.getName()) == -1) {
-                names.add(p.getName());
+            String name = p.getName();
+            int index = names.indexOf(name);
+            if (index == -1) {
+                names.add(name);
                 counts.add(1);
             } else {
-                counts.set(names.indexOf(p.getName()), counts.get(names.indexOf(p.getName())) + 1);
+                counts.set(index, counts.get(index) + 1);
             }
         }
 
