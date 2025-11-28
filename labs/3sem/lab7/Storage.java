@@ -17,7 +17,7 @@ class Item {
 
     @Override
     public String toString() {
-        return name + "(" + weight + " кг)";
+        return name + "-" + weight + " кг";
     }
 }
 
@@ -51,7 +51,9 @@ class Warehouse {
 class Loader extends Thread {
     private final Warehouse warehouse;
     private final int id;
-    private static final int max = 150;
+    private static final int maxTotalWeight = 150;
+    private static int currentTotalWeight = 0;
+    private static final ReentrantLock weightLock = new ReentrantLock();
 
     public Loader(int id, Warehouse warehouse) {
         this.id = id;
@@ -71,18 +73,31 @@ class Loader extends Thread {
                     unload(currentBatch, currentWeight);
                 }
                 System.out.println(getName() + " завершил перегрузку.");
-                return;
+                break;
             }
 
-            if (currentWeight + item.getWeight() > max) {
-                unload(currentBatch, currentWeight);
-                currentBatch = new ArrayList<>();
-                currentWeight = 0;
+            weightLock.lock();
+            try {
+                if (currentTotalWeight + item.getWeight() > maxTotalWeight) {
+                    if (!currentBatch.isEmpty()) {
+                        unload(currentBatch, currentWeight);
+                        currentTotalWeight -= currentWeight;
+                        currentBatch = new ArrayList<>();
+                        currentWeight = 0;
+                    }
+                    
+                    if (currentTotalWeight + item.getWeight() > maxTotalWeight) {
+                        continue;
+                    }
+                }
+                
+                currentBatch.add(item);
+                currentWeight += item.getWeight();
+                currentTotalWeight += item.getWeight();
+                System.out.println(getName() + " загрузил: " + item + ", вес: " + currentWeight + " кг, общий вес грузчиков: " + currentTotalWeight + " кг");
+            } finally {
+                weightLock.unlock();
             }
-
-            currentBatch.add(item);
-            currentWeight += item.getWeight();
-            System.out.println(getName() + " загрузил: " + item + ", общий вес: " + currentWeight + " кг");
         }
     }
 
@@ -105,7 +120,8 @@ public class Storage {
             new Item("Стекло", 50),
             new Item("Одежда", 10),
             new Item("Книги", 35),
-            new Item("Инструменты", 45)
+            new Item("Инструменты", 45),
+            new Item("Golikov", 72)
         );
 
         Warehouse warehouse = new Warehouse(items);

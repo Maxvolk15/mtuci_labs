@@ -5,7 +5,16 @@ import java.util.concurrent.*;
 
 public class ArraySum {
     public static void main(String[] args) throws InterruptedException{
-        int[] array = {3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6, 0, 3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6, 0, 3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6, 0, 3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6, 0, 3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6, 0};
+        int[] array = {
+        3, 7, 2, 8, 5, 1, 9, 4, 6, 0, 5,
+        3, 8, 2, 7, 1, 9, 4, 6, 0, 3, 7,
+        2, 8, 5, 1, 9, 4, 6, 0, 5, 3, 8,
+        2, 7, 1, 9, 4, 6, 0, 3, 7, 2, 8,
+        5, 1, 9, 4, 6, 0, 5, 3, 8, 2, 7,
+        1, 9, 4, 6, 0, 3, 7, 2, 8, 5, 1,
+        9, 4, 6, 0, 5, 3, 8, 2, 7, 1, 9,
+        4, 6, 0, 3, 7, 2, 8, 5, 1, 9, 4,
+        6, 0, 5, 3, 8, 2, 7, 1, 9, 4, 6};
         int mid = array.length/2;
         SumThread thread1 = new SumThread(array, 0, mid);
         SumThread thread2 = new SumThread(array, mid, array.length);
