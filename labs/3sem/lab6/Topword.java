@@ -19,7 +19,7 @@ public class Topword {
         Map<String, Integer> map = new HashMap<>();
         while (scan.hasNext()) {
             String text = scan.nextLine();
-            String[] words = text.split("[,.!?\\s]+");
+            String[] words = text.split("[\\p{Punct}\\s]+");
             for (String word: words) {
                 if (map.containsKey(word)) {
                     map.put(word, map.get(word) + 1);
