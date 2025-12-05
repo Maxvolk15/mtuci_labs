@@ -11,7 +11,7 @@ public class BruteForce {
         System.out.print("[");
         for (int i = 0; i < res.size(); i++) {
             System.out.print("\"" + res.get(i) + "\"");
-            if (i < res.size() - 1) System.out.print(", ");
+            if (i < res.size() - 1) System.out.print(",");
         }
         System.out.println("]");
     }
