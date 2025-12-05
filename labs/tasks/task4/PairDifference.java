@@ -1,8 +1,6 @@
-package task4;
-
 import java.util.*;
 
-public class PaitDifference {
+public class PairDifference {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] n = scan.nextLine().trim().replaceAll("\\s+", "").replace("[", "").replace("]", "").split(",");
@@ -14,10 +12,14 @@ public class PaitDifference {
         int result = 0;
         for (int i = 0; i < n.length - 1; i++) {
             for (int j = 0; j < n.length - 1; j++) {
-                if ((Integer.parseInt(n[i]) > Integer.parseInt(n[j])) && (Integer.parseInt(n[i]) - Integer.parseInt(n[j]) == k)) {
+                if ((Integer.parseInt(n[i]) >= Integer.parseInt(n[j])) && (Integer.parseInt(n[i]) - Integer.parseInt(n[j]) == k) && (i != j)) {
                     result++;
                 }
             }
+        }
+
+        if (k == 0) {
+            result /= 2;
         }
 
         return result;

@@ -1,5 +1,3 @@
-package task4;
-
 import java.util.*;
 
 public class DigitHistogram {

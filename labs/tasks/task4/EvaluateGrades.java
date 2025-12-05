@@ -15,7 +15,7 @@ public class EvaluateGrades {
     public static String evaluateGrades(String[] n) {
         String[] marks = new String[n.length];
         for (int i = 0; i < n.length; i++) {
-            int num = Integer.parseInt(n[i]);
+            int num = Integer.parseInt(n[i].trim());
             if (num >= 90 && num <= 100) { marks[i] = "A";}
             if (num >= 80 && num <= 89) { marks[i] = "B";}
             if (num >= 70 && num <= 79) { marks[i] = "C";}
