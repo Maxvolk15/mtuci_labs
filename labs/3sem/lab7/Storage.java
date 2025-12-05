@@ -51,9 +51,7 @@ class Warehouse {
 class Loader extends Thread {
     private final Warehouse warehouse;
     private final int id;
-    private static final int maxTotalWeight = 150;
-    private static int currentTotalWeight = 0;
-    private static final ReentrantLock weightLock = new ReentrantLock();
+    private static final int max = 150;
 
     public Loader(int id, Warehouse warehouse) {
         this.id = id;
@@ -76,28 +74,15 @@ class Loader extends Thread {
                 break;
             }
 
-            weightLock.lock();
-            try {
-                if (currentTotalWeight + item.getWeight() > maxTotalWeight) {
-                    if (!currentBatch.isEmpty()) {
-                        unload(currentBatch, currentWeight);
-                        currentTotalWeight -= currentWeight;
-                        currentBatch = new ArrayList<>();
-                        currentWeight = 0;
-                    }
-                    
-                    if (currentTotalWeight + item.getWeight() > maxTotalWeight) {
-                        continue;
-                    }
-                }
-                
-                currentBatch.add(item);
-                currentWeight += item.getWeight();
-                currentTotalWeight += item.getWeight();
-                System.out.println(getName() + " загрузил: " + item + ", вес: " + currentWeight + " кг, общий вес грузчиков: " + currentTotalWeight + " кг");
-            } finally {
-                weightLock.unlock();
+            if (currentWeight + item.getWeight() > max) {
+                unload(currentBatch, currentWeight);
+                currentBatch = new ArrayList<>();
+                currentWeight = 0;
             }
+
+            currentBatch.add(item);
+            currentWeight += item.getWeight();
+            System.out.println(getName() + " загрузил: " + item + ", общий вес: " + currentWeight + " кг");
         }
     }
 
