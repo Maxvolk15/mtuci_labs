@@ -28,6 +28,6 @@ public class NotificationController {
         // pushManager.notify("У вас сообщение", "Ivan");
         notificationManager.notify(message, email);
 
-        return "Notification send (Annotation)";
+        return "Notification send";
     }
 }

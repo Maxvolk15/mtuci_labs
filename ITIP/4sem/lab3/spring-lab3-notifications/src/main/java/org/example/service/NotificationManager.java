@@ -1,19 +1,22 @@
 package org.example.service;
 
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class NotificationManager {
-    private final MessageService messageS;
+    private final Map<String,MessageService> messageS;
 
     @Autowired
-    public NotificationManager(MessageService messageService) {
-        this.messageS = messageService;
+    public NotificationManager(Map<String, MessageService> messageServices) {
+        this.messageS = messageServices;
     }
-
     
     public void notify(String message, String recipient) {
-        messageS.sendMessage(message, recipient);
+        MessageService service = messageS.get("customEmail");
+        service.sendMessage(message, recipient);
     }
+
 }
