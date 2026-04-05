@@ -1,8 +1,8 @@
 package org.example.service;
 
-// import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Service;
 
-// @Service
+@Service
 public class PushService implements MessageService {
     @Override
     public void sendMessage(String message, String recipient) {
