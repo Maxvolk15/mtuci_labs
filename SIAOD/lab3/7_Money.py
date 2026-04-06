@@ -13,8 +13,7 @@ def greedy_change(coins, amount):
     return result
 
 def dp_change(coins, amount):
-    INF = 10**9
-    dp = [INF] * (amount + 1)
+    dp = [10**5] * (amount + 1)
     prev = [-1] * (amount + 1)
     dp[0] = 0
 
@@ -24,7 +23,7 @@ def dp_change(coins, amount):
                 dp[s] = dp[s - coin] + 1
                 prev[s] = coin
 
-    if dp[amount] == INF:
+    if dp[amount] == 10**5:
         return None
 
     result = []
@@ -36,7 +35,7 @@ def dp_change(coins, amount):
 
     return result
 
-def analyze_system(coins, amounts):
+def answer(coins, amounts):
     print("Набор номиналов:", coins)
     for amount in amounts:
         greedy_result = greedy_change(coins, amount)
@@ -44,6 +43,6 @@ def analyze_system(coins, amounts):
 
         print(f"{amount}: Жадный: {greedy_result} = {len(greedy_result)} | Динамический: {dp_result} = {len(dp_result)} | Совпали ли результаты: {len(greedy_result) == len(dp_result)}")
 
-analyze_system(coins1, amounts)
+answer(coins1, amounts)
 print("-" * 100)
-analyze_system(coins2, amounts)
+answer(coins2, amounts)
