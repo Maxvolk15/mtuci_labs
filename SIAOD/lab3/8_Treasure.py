@@ -3,7 +3,7 @@ import ast
 capacities = [10, 14, 18]
 
 
-def load_items_from_file(filename):
+def load_from_file(filename):
     with open(filename, "r", encoding="utf-8") as f:
         text = f.read().strip()
 
@@ -17,14 +17,14 @@ def load_items_from_file(filename):
     return items
 
 
-def solve_three_knapsacks(items, capacities):
+def three_bags(items, capacities):
     c1, c2, c3 = capacities
     n = len(items)
 
     dp = {}
     choice = {}
 
-    def dfs(i, cap1, cap2, cap3):
+    def put_items(i, cap1, cap2, cap3):
         if i == n:
             return 0
 
@@ -34,23 +34,23 @@ def solve_three_knapsacks(items, capacities):
 
         name, weight, value = items[i]
 
-        best_value = dfs(i + 1, cap1, cap2, cap3)
+        best_value = put_items(i + 1, cap1, cap2, cap3)
         best_choice = 0
 
         if weight <= cap1:
-            candidate = value + dfs(i + 1, cap1 - weight, cap2, cap3)
+            candidate = value + put_items(i + 1, cap1 - weight, cap2, cap3)
             if candidate > best_value:
                 best_value = candidate
                 best_choice = 1
 
         if weight <= cap2:
-            candidate = value + dfs(i + 1, cap1, cap2 - weight, cap3)
+            candidate = value + put_items(i + 1, cap1, cap2 - weight, cap3)
             if candidate > best_value:
                 best_value = candidate
                 best_choice = 2
 
         if weight <= cap3:
-            candidate = value + dfs(i + 1, cap1, cap2, cap3 - weight)
+            candidate = value + put_items(i + 1, cap1, cap2, cap3 - weight)
             if candidate > best_value:
                 best_value = candidate
                 best_choice = 3
@@ -59,7 +59,7 @@ def solve_three_knapsacks(items, capacities):
         choice[state] = best_choice
         return best_value
 
-    max_total_value = dfs(0, c1, c2, c3)
+    max_total_value = put_items(0, c1, c2, c3)
 
     bag1 = []
     bag2 = []
@@ -89,19 +89,11 @@ def solve_three_knapsacks(items, capacities):
     return max_total_value, bag1, bag2, bag3
 
 
-def bag_weight(bag):
-    return sum(item[1] for item in bag)
-
-
-def bag_value(bag):
-    return sum(item[2] for item in bag)
-
-
 def print_bag(bag_name, bag, capacity):
     print(bag_name)
     print("Вместимость:", capacity)
-    print("Итоговый вес:", bag_weight(bag))
-    print("Итоговая стоимость:", bag_value(bag))
+    print("Итоговый вес:", sum(item[1] for item in bag))
+    print("Итоговая стоимость:", sum(item[2] for item in bag))
     print("Предметы:")
 
     for name, weight, value in bag:
@@ -110,9 +102,9 @@ def print_bag(bag_name, bag, capacity):
     print()
 
 
-items = load_items_from_file("treasures.txt")
+items = load_from_file("treasures.txt")
 
-max_total_value, petya_bag, vasya_bag, terentiy_bag = solve_three_knapsacks(items, capacities)
+max_total_value, petya_bag, vasya_bag, terentiy_bag = three_bags(items, capacities)
 
 print("Максимальная суммарная стоимость:", max_total_value)
 print()

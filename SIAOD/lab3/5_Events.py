@@ -3,7 +3,7 @@ import ast
 days_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
 
-def time_to_minutes(t):
+def to_minutes(t):
     return t[0] * 60 + t[1]
 
 
@@ -11,7 +11,7 @@ def format_time(t):
     return f"{t[0]:02d}:{t[1]:02d}"
 
 
-def load_events_from_file(filename):
+def load_from_file(filename):
     with open(filename, "r", encoding="utf-8") as f:
         text = f.read().strip()
 
@@ -30,19 +30,19 @@ def greedy_schedule(events):
     for day in days_order:
         day_events = [event for event in events if event[1] == day]
 
-        day_events.sort(key=lambda event: time_to_minutes(event[3]))
+        day_events.sort(key=lambda event: to_minutes(event[3]))
 
         chosen_for_day = []
-        current_end = time_to_minutes((8, 0))
+        current_end = to_minutes((8, 0))
 
         for event in day_events:
             title, event_day, start, end, description = event
-            start_minutes = time_to_minutes(start)
-            end_minutes = time_to_minutes(end)
+            start_minutes = to_minutes(start)
+            end_minutes = to_minutes(end)
 
-            if start_minutes < time_to_minutes((8, 0)):
+            if start_minutes < to_minutes((8, 0)):
                 continue
-            if end_minutes > time_to_minutes((18, 0)):
+            if end_minutes > to_minutes((18, 0)):
                 continue
 
             if start_minutes >= current_end:
@@ -56,7 +56,7 @@ def greedy_schedule(events):
     return selected_events, schedule_by_day
 
 
-events = load_events_from_file("works.txt")
+events = load_from_file("works.txt")
 
 selected_events, schedule_by_day = greedy_schedule(events)
 max_events_count = len(selected_events)
