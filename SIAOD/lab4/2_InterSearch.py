@@ -38,7 +38,8 @@ n = 100000
 default = list(range(n))
 quadratic = [i**2 for i in range(n)]
 exponent = [2**(i//1000) + i for i in range(n)]
-random_arr = sorted([random.randint(0, 10**6) for _ in range(n)])
+arr = sorted([random.randint(0, 10**6) for _ in range(n)])
+random_arr = sorted([i**4 if random.random() < 0.3 else i for i in arr])
 
 arrs = [default, quadratic, exponent, random_arr]
 names = ["Равномерный", "Квадратичный", "Экспоненциальный", "Случайный"]

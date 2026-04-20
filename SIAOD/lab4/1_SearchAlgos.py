@@ -2,11 +2,13 @@
 def linear_search(arr, target):
     a = arr.copy()
     a.append(target) #Барьерный элемент
-    for i in range(len(a)):
+    i=0
+    while i != len(a):
         if i == len(a) - 1:
             return -1
         if a[i] == target:
             return i
+        i+=1
 
 #Binary Search Algorithm
 def binary_search(arr, target):
@@ -43,8 +45,6 @@ def inter_search(arr, target):
 #Exponent Search Algorithm
 def exponent_search(arr, target):
     n = len(arr)
-    if n == 0:
-        return -1
     if arr[0] == target:
         return 0
 

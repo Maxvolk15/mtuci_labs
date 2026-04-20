@@ -5,12 +5,11 @@ def linear_search(arr, target):
     a = arr.copy()
     n = len(a)
     a.append(target)
+    comparisons = 0 #Сравнения
+    iterations = 0  #Итерации
+    shifts = 0  #Сдвиги
 
-    comparisons = 0
-    iterations = 0
-    shifts = 0
-
-    for i in range(n):
+    for i in range(len(a) - 1):
         iterations += 1
         comparisons += 1
 
@@ -19,7 +18,6 @@ def linear_search(arr, target):
 
         if a[i] == target:
             return i, comparisons, iterations, shifts
-
         shifts += 1
 
 
@@ -27,9 +25,9 @@ def linear_search(arr, target):
 def binary_search(arr, target):
     left, right = 0, len(arr) - 1
 
-    comparisons = 0
-    iterations = 0
-    shifts = 0
+    comparisons = 0 #Сравнения
+    iterations = 0  #Итерации
+    shifts = 0  #Сдвиги
 
     while left <= right:
         iterations += 1
@@ -54,9 +52,9 @@ def binary_search(arr, target):
 def inter_search(arr, target):
     low, high = 0, len(arr) - 1
 
-    comparisons = 0
-    iterations = 0
-    shifts = 0
+    comparisons = 0 #Сравнения
+    iterations = 0  #Итерации
+    shifts = 0  #Сдвиги
 
     while low <= high and target >= arr[low] and target <= arr[high]:
         iterations += 1
@@ -85,12 +83,9 @@ def inter_search(arr, target):
 def exponent_search(arr, target):
     n = len(arr)
 
-    comparisons = 0
-    iterations = 0
-    shifts = 0
-
-    if n == 0:
-        return -1, comparisons, iterations, shifts
+    comparisons = 0 #Сравнения
+    iterations = 0  #Итерации
+    shifts = 0  #Сдвиги
 
     comparisons += 1
     if arr[0] == target:

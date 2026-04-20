@@ -47,8 +47,6 @@ def inter_search(arr, target):
 #Exponent Search Algorithm
 def exponent_search(arr, target):
     n = len(arr)
-    if n == 0:
-        return -1
     if arr[0] == target:
         return 0
 
