@@ -3,13 +3,13 @@ def bubble_sort(arr):
    n = len(data)
    comparisons, swaps, passes = 0, 0, 0
    for i in range(n - 1):
-       passes += 1
+       passes += 1 #Проход
        swapped = False
        for j in range(n - i - 1):
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[j] > data[j + 1]:
                data[j], data[j + 1] = data[j + 1], data[j]
-               swaps += 1
+               swaps += 1 #Обмен
                swapped = True
        if not swapped:
            break
@@ -20,15 +20,15 @@ def selection_sort(arr):
    n = len(data)
    comparisons, swaps, passes = 0, 0, 0
    for i in range(n - 1):
-       passes += 1
+       passes += 1 #Проход
        min_idx = i
        for j in range(i + 1, n):
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[j] < data[min_idx]:
                min_idx = j
        if min_idx != i:
            data[i], data[min_idx] = data[min_idx], data[i]
-           swaps += 1
+           swaps += 1 #Обмен
    return data, comparisons, swaps, passes
 
 def insertion_sort(arr):
@@ -36,14 +36,14 @@ def insertion_sort(arr):
    n = len(data)
    comparisons, shifts, passes = 0, 0, 0
    for i in range(1, n):
-       passes += 1
+       passes += 1 #Проход
        key = data[i]
        j = i - 1
        while j >= 0:
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[j] > key:
                data[j + 1] = data[j]
-               shifts += 1
+               shifts += 1 #Сдвиг
                j -= 1
            else:
                break

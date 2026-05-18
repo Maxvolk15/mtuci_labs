@@ -14,7 +14,7 @@ def partition_lomuto(arr, left, right, pivot_type, stats):
    i = left - 1
    
    if stats['partition_calls'] < 3:
-       print(f"  [Ломуто Шаг {stats['partition_calls']+1}] Границы: {left}..{right}, Опорный: {pivot}")
+       print(f"[Ломуто Шаг {stats['partition_calls']+1}] Границы: {left}..{right}, Опорный: {pivot}")
 
    for j in range(left, right):
        stats['comparisons'] += 1
@@ -27,7 +27,7 @@ def partition_lomuto(arr, left, right, pivot_type, stats):
    stats['swaps'] += 1
    
    if stats['partition_calls'] < 3:
-       print(f"    Рез-т разбиения: {arr[left:right+1]}, Возврат: {i + 1}")
+       print(f"Рез-т разбиения: {arr[left:right+1]}, Возврат: {i + 1}")
    stats['partition_calls'] += 1
    
    return i + 1
@@ -45,20 +45,22 @@ def partition_hoare(arr, left, right, pivot_type, stats):
    j = right + 1
 
    if stats['partition_calls'] < 3:
-       print(f"  [Хоар Шаг {stats['partition_calls']+1}] Границы: {left}..{right}, Опорный: {pivot}")
+       print(f"[Хоар Шаг {stats['partition_calls']+1}] Границы: {left}..{right}, Опорный: {pivot}")
 
    while True:
        while True:
            i += 1
            stats['comparisons'] += 1
-           if arr[i] >= pivot: break
+           if arr[i] >= pivot:
+               break
        while True:
            j -= 1
            stats['comparisons'] += 1
-           if arr[j] <= pivot: break
+           if arr[j] <= pivot:
+               break
        if i >= j:
            if stats['partition_calls'] < 3:
-               print(f"    Рез-т разбиения: {arr[left:right+1]}, Возврат: {j}")
+               print(f"Рез-т разбиения: {arr[left:right+1]}, Возврат: {j}")
            stats['partition_calls'] += 1
            return j
        arr[i], arr[j] = arr[j], arr[i]

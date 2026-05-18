@@ -3,13 +3,13 @@ def bubble_sort(arr):
    n = len(data)
    comparisons, swaps, passes = 0, 0, 0
    for i in range(n - 1):
-       passes += 1
+       passes += 1 #Проход
        swapped = False
        for j in range(n - i - 1):
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[j] > data[j + 1]:
                data[j], data[j + 1] = data[j + 1], data[j]
-               swaps += 1
+               swaps += 1 #Обмен
                swapped = True
        if not swapped:
            break
@@ -20,13 +20,13 @@ def shaker_sort(arr):
    left, right = 0, len(data) - 1
    comparisons, swaps, passes = 0, 0, 0
    while left <= right:
-       passes += 1
+       passes += 1 #Проход
        swapped = False
        for i in range(left, right):
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[i] > data[i + 1]:
                data[i], data[i + 1] = data[i + 1], data[i]
-               swaps += 1
+               swaps += 1 #Обмен
                swapped = True
        right -= 1
        if not swapped:
@@ -34,10 +34,10 @@ def shaker_sort(arr):
        
        swapped = False
        for i in range(right, left, -1):
-           comparisons += 1
+           comparisons += 1 #Сравнение
            if data[i - 1] > data[i]:
                data[i - 1], data[i] = data[i], data[i - 1]
-               swaps += 1
+               swaps += 1 #Обмен
                swapped = True
        left += 1
        if not swapped:
@@ -50,16 +50,16 @@ def gnome_sort(arr):
    comparisons, swaps, steps = 0, 0, 0
    index = 0
    while index < n:
-       steps += 1
+       steps += 1 #Шаги
        if index == 0:
            index += 1
            continue
-       comparisons += 1
+       comparisons += 1 #Сравнение
        if data[index] >= data[index - 1]:
            index += 1
        else:
            data[index], data[index - 1] = data[index - 1], data[index]
-           swaps += 1
+           swaps += 1 #Обмен
            index -= 1
    return data, comparisons, swaps, steps
 
