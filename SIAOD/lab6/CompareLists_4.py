@@ -31,6 +31,26 @@ def benchmark():
        start = time.time()
        ll.get_by_index(mid_index)
        time_ll_get = time.time() - start
-       
+
+       start = time.time()
+       arr.delete_by_index(0)
+       time_arr_delete = time.time() - start
+
+       start = time.time()
+       ll.delete_first()
+       time_ll_delete = time.time() - start
+
+       start = time.time()
+       arr.get_size()
+       time_arr_size = time.time() - start
+
+       start = time.time()
+       ll.get_size()
+       time_ll_size = time.time() - start
+
        print(f"Добавление в конец: Массив {time_arr_append:.7f} | Связанный список {time_ll_append:.7f}")
        print(f"Доступ по индексу:  Массив {time_arr_get:.7f} | Связанный список {time_ll_get:.7f}")
+       print(f"Удаление первого элемента:  Массив {time_arr_delete:.7f} | Связанный список {time_ll_delete:.7f}")
+       print(f"Получение размера:  Массив {time_arr_size:.7f} | Связанный список {time_ll_size:.7f}")
+
+benchmark()
