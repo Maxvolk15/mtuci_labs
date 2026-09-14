@@ -1,0 +1,1124 @@
+[
+ {
+  "date": "2026-06-01",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.76
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.9076
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3081
+   }
+  }
+ },
+ {
+  "date": "2026-06-02",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.5146
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.8359
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3495
+   }
+  }
+ },
+ {
+  "date": "2026-06-03",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.8106
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.8825
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.369
+   }
+  }
+ },
+ {
+  "date": "2026-06-04",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6168
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.6741
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.416
+   }
+  }
+ },
+ {
+  "date": "2026-06-05",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.3389
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.2756
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4088
+   }
+  }
+ },
+ {
+  "date": "2026-06-08",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.0427
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.5483
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4391
+   }
+  }
+ },
+ {
+  "date": "2026-06-09",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.9448
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.568
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.487
+   }
+  }
+ },
+ {
+  "date": "2026-06-10",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.1313
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.7932
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5371
+   }
+  }
+ },
+ {
+  "date": "2026-06-11",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.4033
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.2842
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5818
+   }
+  }
+ },
+ {
+  "date": "2026-06-12",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.3023
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.0711
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5643
+   }
+  }
+ },
+ {
+  "date": "2026-06-15",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.5406
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.1378
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5882
+   }
+  }
+ },
+ {
+  "date": "2026-06-16",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.3885
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.3087
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5078
+   }
+  }
+ },
+ {
+  "date": "2026-06-17",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.4051
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.4458
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4549
+   }
+  }
+ },
+ {
+  "date": "2026-06-18",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6118
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 94.2045
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5097
+   }
+  }
+ },
+ {
+  "date": "2026-06-19",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.8056
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.643
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5679
+   }
+  }
+ },
+ {
+  "date": "2026-06-22",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.1718
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.6621
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6041
+   }
+  }
+ },
+ {
+  "date": "2026-06-23",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.9329
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.2762
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.672
+   }
+  }
+ },
+ {
+  "date": "2026-06-24",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.1587
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.4488
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6132
+   }
+  }
+ },
+ {
+  "date": "2026-06-25",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.2998
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.4285
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5648
+   }
+  }
+ },
+ {
+  "date": "2026-06-26",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.0663
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.5075
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4835
+   }
+  }
+ },
+ {
+  "date": "2026-06-29",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.551
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6448
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5003
+   }
+  }
+ },
+ {
+  "date": "2026-06-30",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.1088
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6408
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5396
+   }
+  }
+ },
+ {
+  "date": "2026-07-01",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.2824
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.8494
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4894
+   }
+  }
+ },
+ {
+  "date": "2026-07-02",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.8241
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6913
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4439
+   }
+  }
+ },
+ {
+  "date": "2026-07-03",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.9653
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.3562
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4608
+   }
+  }
+ },
+ {
+  "date": "2026-07-06",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6127
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.5815
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4171
+   }
+  }
+ },
+ {
+  "date": "2026-07-07",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.7789
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6783
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4046
+   }
+  }
+ },
+ {
+  "date": "2026-07-08",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.3457
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.2819
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.439
+   }
+  }
+ },
+ {
+  "date": "2026-07-09",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.4016
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.7176
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3801
+   }
+  }
+ },
+ {
+  "date": "2026-07-10",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.4348
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.485
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.372
+   }
+  }
+ },
+ {
+  "date": "2026-07-13",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.4224
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.3686
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4408
+   }
+  }
+ },
+ {
+  "date": "2026-07-14",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0234
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.1079
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3538
+   }
+  }
+ },
+ {
+  "date": "2026-07-15",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.1045
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6271
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3737
+   }
+  }
+ },
+ {
+  "date": "2026-07-16",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0552
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.5546
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4076
+   }
+  }
+ },
+ {
+  "date": "2026-07-17",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6886
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.2335
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4376
+   }
+  }
+ },
+ {
+  "date": "2026-07-20",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.2279
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6767
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3698
+   }
+  }
+ },
+ {
+  "date": "2026-07-21",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.168
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.9991
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4083
+   }
+  }
+ },
+ {
+  "date": "2026-07-22",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.9315
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 93.0189
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3102
+   }
+  }
+ },
+ {
+  "date": "2026-07-23",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.921
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.9127
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.3549
+   }
+  }
+ },
+ {
+  "date": "2026-07-24",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.0229
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 92.6638
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.38
+   }
+  }
+ },
+ {
+  "date": "2026-07-27",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6714
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.7363
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.407
+   }
+  }
+ },
+ {
+  "date": "2026-07-28",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.1988
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.7528
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4281
+   }
+  }
+ },
+ {
+  "date": "2026-07-29",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.362
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.7493
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4426
+   }
+  }
+ },
+ {
+  "date": "2026-07-30",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0228
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.4762
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4953
+   }
+  }
+ },
+ {
+  "date": "2026-07-31",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.5513
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.7364
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.446
+   }
+  }
+ },
+ {
+  "date": "2026-08-03",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.4906
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.0443
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4586
+   }
+  }
+ },
+ {
+  "date": "2026-08-04",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.5214
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.3646
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4468
+   }
+  }
+ },
+ {
+  "date": "2026-08-05",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.3597
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.346
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4053
+   }
+  }
+ },
+ {
+  "date": "2026-08-06",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.5221
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.3909
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5057
+   }
+  }
+ },
+ {
+  "date": "2026-08-07",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.4492
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.1262
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.4752
+   }
+  }
+ },
+ {
+  "date": "2026-08-10",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0405
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.1348
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5063
+   }
+  }
+ },
+ {
+  "date": "2026-08-11",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0722
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.7169
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.599
+   }
+  }
+ },
+ {
+  "date": "2026-08-12",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.9283
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.5689
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6005
+   }
+  }
+ },
+ {
+  "date": "2026-08-13",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.9133
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.2796
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5831
+   }
+  }
+ },
+ {
+  "date": "2026-08-14",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.8862
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.1222
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.597
+   }
+  }
+ },
+ {
+  "date": "2026-08-17",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.3585
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.302
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.7066
+   }
+  }
+ },
+ {
+  "date": "2026-08-18",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.0908
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.4207
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.7156
+   }
+  }
+ },
+ {
+  "date": "2026-08-19",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.7342
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.3981
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.7375
+   }
+  }
+ },
+ {
+  "date": "2026-08-20",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 79.864
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.7295
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6112
+   }
+  }
+ },
+ {
+  "date": "2026-08-21",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.0107
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.4454
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.5664
+   }
+  }
+ },
+ {
+  "date": "2026-08-24",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.5849
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.4179
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6097
+   }
+  }
+ },
+ {
+  "date": "2026-08-25",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.1294
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.3207
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6286
+   }
+  }
+ },
+ {
+  "date": "2026-08-26",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.6324
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.7164
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6099
+   }
+  }
+ },
+ {
+  "date": "2026-08-27",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.9809
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.0769
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6438
+   }
+  }
+ },
+ {
+  "date": "2026-08-28",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 81.0676
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 91.1573
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.6761
+   }
+  }
+ },
+ {
+  "date": "2026-08-31",
+  "valutes": {
+   "USD": {
+    "nominal": 1,
+    "value": 80.7485
+   },
+   "EUR": {
+    "nominal": 1,
+    "value": 90.3067
+   },
+   "CNY": {
+    "nominal": 1,
+    "value": 11.7453
+   }
+  }
+ }
+]

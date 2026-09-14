@@ -1,0 +1,350 @@
+merchant_id,merchant_name,merchant_name_latin,mcc,channel,currency,home_city
+M3000,Пятёрочка,PYATEROCHKA,5411,pos,RUB,федеральная сеть
+M3001,Магнит,MAGNIT,5411,pos,RUB,федеральная сеть
+M3002,Яндекс Такси,YANDEX.TAXI,4121,ecom,RUB,федеральная сеть
+M3003,Wildberries,WILDBERRIES,5651,ecom,RUB,федеральная сеть
+M3004,Ozon,OZON.RU,5399,ecom,RUB,федеральная сеть
+M3005,Перекрёсток,PEREKRESTOK,5411,pos,RUB,федеральная сеть
+M3006,Лукойл,LUKOIL AZS,5541,pos,RUB,федеральная сеть
+M3007,Красное&Белое,KRASNOE-BELOE,5921,pos,RUB,федеральная сеть
+M3008,Яндекс Еда,YANDEX.EDA,5812,ecom,RUB,федеральная сеть
+M3009,Вкусно — и точка,VKUSNO I TOCHKA,5814,pos,RUB,федеральная сеть
+M3010,Лента,LENTA,5411,pos,RUB,федеральная сеть
+M3011,МТС,MTS.RU,4814,ecom,RUB,федеральная сеть
+M3012,ВкусВилл,VKUSVILL,5411,pos,RUB,федеральная сеть
+M3013,Газпромнефть,GAZPROMNEFT AZS,5541,pos,RUB,федеральная сеть
+M3014,Мегафон,MEGAFON,4814,ecom,RUB,федеральная сеть
+M3015,Додо Пицца,DODO PIZZA,5814,ecom,RUB,федеральная сеть
+M3016,РЖД,RZD PASS,4112,ecom,RUB,федеральная сеть
+M3017,Аэрофлот,AEROFLOT,4511,ecom,RUB,федеральная сеть
+M3018,Аптека Ригла,APTEKA RIGLA,5912,pos,RUB,федеральная сеть
+M3019,DNS,DNS RETAIL,5732,pos,RUB,федеральная сеть
+M3020,М.Видео,MVIDEO,5732,pos,RUB,федеральная сеть
+M3021,Спортмастер,SPORTMASTER,5941,pos,RUB,федеральная сеть
+M3022,Летуаль,LETOILE,5977,pos,RUB,федеральная сеть
+M3023,Читай-город,CHITAI-GOROD,5942,pos,RUB,федеральная сеть
+M3024,Самокат,SAMOKAT,5411,ecom,RUB,федеральная сеть
+M3025,AliExpress,ALIEXPRESS,5399,ecom,CNY,HANGZHOU CN
+M3026,Trip.com,TRIP.COM,4722,ecom,USD,SINGAPORE SG
+M3027,Steam,STEAM GAMES,5816,ecom,USD,HAMBURG DE
+M3028,Duty Free Istanbul,DUTY FREE IST,5309,pos,EUR,ISTANBUL TR
+M3029,Кафе «Бриз»,CAFE BRIZ,5814,pos,RUB,Новосибирск
+M3030,Аптека №360,APTEKA 360,5912,pos,RUB,Санкт-Петербург
+M3031,ИП Виноградов Н.Е.,IP VINOGRADOV,5921,pos,RUB,Новосибирск
+M3032,АЗС «Регион-16»,AZS REGION-16,5541,ecom,RUB,Москва
+M3033,ИП Жуков Е.В.,IP ZHUKOV,5814,pos,RUB,Москва
+M3034,Аптека №564,APTEKA 564,5912,pos,RUB,Калининград
+M3035,ООО «Вектор»,OOO VEKTOR,5732,pos,RUB,Москва
+M3036,ООО «Дельта»,OOO DELTA,5942,pos,RUB,Уфа
+M3037,ИП Баранов П.Е.,IP BARANOV,5999,pos,RUB,Барнаул
+M3038,Кафе «Шафран»,CAFE SHAFRAN,5812,pos,RUB,Воронеж
+M3039,ИП Шевченко Н.Н.,IP SHEVCHENKO,5651,pos,RUB,Санкт-Петербург
+M3040,Аптека №647,APTEKA 647,5912,pos,RUB,Москва
+M3041,Кафе «Барбарис»,CAFE BARBARIS,5814,pos,RUB,Москва
+M3042,Аптека №659,APTEKA 659,5912,pos,RUB,Москва
+M3043,Кафе «Самовар»,CAFE SAMOVAR,5812,pos,RUB,Сочи
+M3044,Аптека №904,APTEKA 904,5912,pos,RUB,Воронеж
+M3045,ИП Николаев М.И.,IP NIKOLAEV,5812,pos,RUB,Санкт-Петербург
+M3046,АЗС «Регион-42»,AZS REGION-42,5541,pos,RUB,Нижний Новгород
+M3047,АЗС «Регион-92»,AZS REGION-92,5541,pos,RUB,Ижевск
+M3048,ИП Шевченко Р.Н.,IP SHEVCHENKO,5814,pos,RUB,Краснодар
+M3049,АЗС «Регион-16»,AZS REGION-16,5541,pos,RUB,Екатеринбург
+M3050,ООО «Зенит»,OOO ZENIT,5921,pos,RUB,Ростов-на-Дону
+M3051,Кафе «Лаванда»,CAFE LAVANDA,5812,pos,RUB,Уфа
+M3052,Кафе «Минутка»,CAFE MINUTKA,5814,pos,RUB,Нижний Новгород
+M3053,ООО «Каскад»,OOO KASKAD,5999,pos,RUB,Санкт-Петербург
+M3054,Аптека №449,APTEKA 449,5912,ecom,RUB,Санкт-Петербург
+M3055,ИП Попов С.И.,IP POPOV,5541,pos,RUB,Краснодар
+M3056,ИП Васильев Р.А.,IP VASILEV,5651,ecom,RUB,Красноярск
+M3057,АЗС «Регион-22»,AZS REGION-22,5541,pos,RUB,Самара
+M3058,Кафе «Восход»,CAFE VOSKHOD,5812,pos,RUB,Москва
+M3059,ООО «Прогресс»,OOO PROGRESS,5814,pos,RUB,Красноярск
+M3060,ИП Григорьев О.И.,IP GRIGOREV,5411,pos,RUB,Нижний Новгород
+M3061,Аптека №650,APTEKA 650,5912,pos,RUB,Воронеж
+M3062,ООО «Заря»,OOO ZARYA,4900,pos,RUB,Москва
+M3063,ИП Бондаренко О.Н.,IP BONDARENKO,5411,pos,RUB,Ижевск
+M3064,ООО «Заря»,OOO ZARYA,5942,pos,RUB,Уфа
+M3065,ООО «Альянс»,OOO ALYANS,5814,ecom,RUB,Новосибирск
+M3066,Кафе «Маяк»,CAFE MAYAK,5812,pos,RUB,Москва
+M3067,ООО «Топаз»,OOO TOPAZ,5411,pos,RUB,Москва
+M3068,Кафе «Барбарис»,CAFE BARBARIS,5814,pos,RUB,Екатеринбург
+M3069,ИП Лебедев П.В.,IP LEBEDEV,5921,pos,RUB,Уфа
+M3070,ООО «Вектор»,OOO VEKTOR,5814,pos,RUB,Уфа
+M3071,Кафе «Абрикос»,CAFE ABRIKOS,5814,pos,RUB,Москва
+M3072,ИП Королёв А.В.,IP KOROLEV,5999,pos,RUB,Краснодар
+M3073,ООО «Рубин»,OOO RUBIN,5999,pos,RUB,Казань
+M3074,ООО «Форум»,OOO FORUM,5921,pos,RUB,Иркутск
+M3075,ООО «Гранат»,OOO GRANAT,5814,pos,RUB,Москва
+M3076,Аптека №360,APTEKA 360,5912,pos,RUB,Новосибирск
+M3077,ИП Фёдоров С.В.,IP FEDOROV,5999,pos,RUB,Новосибирск
+M3078,Аптека №691,APTEKA 691,5912,pos,RUB,Ижевск
+M3079,АЗС «Регион-40»,AZS REGION-40,5541,ecom,RUB,Краснодар
+M3080,ООО «Салют»,OOO SALYUT,5921,ecom,RUB,Москва
+M3081,ИП Поляков И.Е.,IP POLYAKOV,5921,pos,RUB,Нижний Новгород
+M3082,Кафе «Крендель»,CAFE KRENDEL,5814,ecom,RUB,Самара
+M3083,ИП Алексеев Р.В.,IP ALEKSEEV,5921,ecom,RUB,Санкт-Петербург
+M3084,Аптека №910,APTEKA 910,5912,pos,RUB,Москва
+M3085,Аптека №485,APTEKA 485,5912,pos,RUB,Москва
+M3086,ИП Иванов Н.Е.,IP IVANOV,5812,pos,RUB,Ставрополь
+M3087,Аптека №995,APTEKA 995,5912,pos,RUB,Нижний Новгород
+M3088,ИП Семёнов С.Е.,IP SEMENOV,5921,pos,RUB,Воронеж
+M3089,ООО «Мираж»,OOO MIRAZH,5921,pos,RUB,Москва
+M3090,Кафе «Шафран»,CAFE SHAFRAN,5814,pos,RUB,Санкт-Петербург
+M3091,ИП Белов О.Е.,IP BELOV,5812,pos,RUB,Нижний Новгород
+M3092,Кафе «Черника»,CAFE CHERNIKA,5814,pos,RUB,Новосибирск
+M3093,ООО «Кристалл»,OOO KRISTALL,5411,pos,RUB,Хабаровск
+M3094,ООО «Вектор»,OOO VEKTOR,5541,pos,RUB,Москва
+M3095,ООО «Юпитер»,OOO YUPITER,5814,ecom,RUB,Москва
+M3096,ИП Соловьёв А.Е.,IP SOLOVEV,5912,pos,RUB,Ростов-на-Дону
+M3097,Аптека №591,APTEKA 591,5912,pos,RUB,Санкт-Петербург
+M3098,ИП Смирнов Н.Е.,IP SMIRNOV,5541,pos,RUB,Москва
+M3099,ООО «Топаз»,OOO TOPAZ,5912,pos,RUB,Москва
+M3100,ООО «Вектор»,OOO VEKTOR,5942,pos,RUB,Хабаровск
+M3101,ООО «Салют»,OOO SALYUT,5942,pos,RUB,Нижний Новгород
+M3102,АЗС «Регион-29»,AZS REGION-29,5541,pos,RUB,Москва
+M3103,ИП Волков М.Н.,IP VOLKOV,4900,pos,RUB,Ростов-на-Дону
+M3104,Аптека №826,APTEKA 826,5912,ecom,RUB,Москва
+M3105,Аптека №358,APTEKA 358,5912,pos,RUB,Новосибирск
+M3106,ИП Ткаченко М.А.,IP TKACHENKO,5814,pos,RUB,Казань
+M3107,ООО «Заря»,OOO ZARYA,5812,pos,RUB,Москва
+M3108,Аптека №443,APTEKA 443,5912,ecom,RUB,Москва
+M3109,ООО «Сапфир»,OOO SAPFIR,4900,pos,RUB,Новосибирск
+M3110,Кафе «Луч»,CAFE LUCH,5814,ecom,RUB,Краснодар
+M3111,ИП Максимов Н.Н.,IP MAKSIMOV,5912,ecom,RUB,Новосибирск
+M3112,ООО «Меркурий»,OOO MERKURIY,5732,pos,RUB,Красноярск
+M3113,АЗС «Регион-92»,AZS REGION-92,5541,pos,RUB,Москва
+M3114,Кафе «Вишня»,CAFE VISHNYA,5814,ecom,RUB,Москва
+M3115,Кафе «Тайга»,CAFE TAYGA,5814,ecom,RUB,Пермь
+M3116,Аптека №152,APTEKA 152,5912,ecom,RUB,Москва
+M3117,АЗС «Регион-29»,AZS REGION-29,5541,pos,RUB,Новосибирск
+M3118,ООО «Ромашка»,OOO ROMASHKA,5541,pos,RUB,Москва
+M3119,ООО «Кристалл»,OOO KRISTALL,5812,ecom,RUB,Санкт-Петербург
+M3120,АЗС «Регион-37»,AZS REGION-37,5541,pos,RUB,Москва
+M3121,ИП Сергеев Р.Е.,IP SERGEEV,5942,pos,RUB,Новосибирск
+M3122,ООО «Титан»,OOO TITAN,5942,pos,RUB,Новосибирск
+M3123,ИП Жуков Е.А.,IP ZHUKOV,5999,pos,RUB,Воронеж
+M3124,ООО «Форум»,OOO FORUM,5814,pos,RUB,Санкт-Петербург
+M3125,ИП Давыдов М.А.,IP DAVYDOV,5732,ecom,RUB,Уфа
+M3126,Кафе «Луч»,CAFE LUCH,5812,ecom,RUB,Волгоград
+M3127,ООО «Гранат»,OOO GRANAT,5651,pos,RUB,Москва
+M3128,ИП Сергеев М.В.,IP SERGEEV,4900,pos,RUB,Воронеж
+M3129,ООО «Меркурий»,OOO MERKURIY,5651,pos,RUB,Москва
+M3130,ООО «Кристалл»,OOO KRISTALL,5912,pos,RUB,Новосибирск
+M3131,Кафе «Шафран»,CAFE SHAFRAN,5814,pos,RUB,Москва
+M3132,ООО «Вектор»,OOO VEKTOR,5651,pos,RUB,Санкт-Петербург
+M3133,ООО «Сапфир»,OOO SAPFIR,5999,pos,RUB,Екатеринбург
+M3134,ООО «Зенит»,OOO ZENIT,5411,pos,RUB,Екатеринбург
+M3135,ИП Тарасов М.И.,IP TARASOV,5912,pos,RUB,Москва
+M3136,ИП Бондаренко И.И.,IP BONDARENKO,5411,pos,RUB,Москва
+M3137,ИП Кравченко С.И.,IP KRAVCHENKO,5999,pos,RUB,Барнаул
+M3138,Аптека №975,APTEKA 975,5912,pos,RUB,Москва
+M3139,Кафе «Восход»,CAFE VOSKHOD,5814,pos,RUB,Новосибирск
+M3140,ООО «Альянс»,OOO ALYANS,5411,ecom,RUB,Воронеж
+M3141,ООО «Кристалл»,OOO KRISTALL,5411,pos,RUB,Москва
+M3142,ИП Павлов И.Н.,IP PAVLOV,5814,pos,RUB,Казань
+M3143,АЗС «Регион-92»,AZS REGION-92,5541,pos,RUB,Москва
+M3144,ООО «Зенит»,OOO ZENIT,5812,pos,RUB,Уфа
+M3145,АЗС «Регион-19»,AZS REGION-19,5541,pos,RUB,Екатеринбург
+M3146,ИП Воробьёв Р.В.,IP VOROBEV,5812,pos,RUB,Москва
+M3147,ООО «Пилот»,OOO PILOT,5651,pos,RUB,Новосибирск
+M3148,АЗС «Регион-43»,AZS REGION-43,5541,ecom,RUB,Ростов-на-Дону
+M3149,ООО «Гранат»,OOO GRANAT,5651,pos,RUB,Красноярск
+M3150,ООО «Квант»,OOO KVANT,5651,ecom,RUB,Санкт-Петербург
+M3151,Кафе «Лаванда»,CAFE LAVANDA,5812,pos,RUB,Нижний Новгород
+M3152,Кафе «Бриз»,CAFE BRIZ,5814,pos,RUB,Санкт-Петербург
+M3153,ООО «Пилот»,OOO PILOT,5732,ecom,RUB,Москва
+M3154,ООО «Прогресс»,OOO PROGRESS,5541,pos,RUB,Екатеринбург
+M3155,ИП Фролов П.Е.,IP FROLOV,5999,pos,RUB,Пермь
+M3156,ООО «Форум»,OOO FORUM,5999,pos,RUB,Уфа
+M3157,ИП Козлов М.Е.,IP KOZLOV,5651,ecom,RUB,Москва
+M3158,ИП Ткаченко К.А.,IP TKACHENKO,5999,pos,RUB,Нижний Новгород
+M3159,ИП Григорьев С.И.,IP GRIGOREV,5651,ecom,RUB,Казань
+M3160,Кафе «Крендель»,CAFE KRENDEL,5812,pos,RUB,Краснодар
+M3161,ИП Дмитриев И.В.,IP DMITRIEV,5999,pos,RUB,Санкт-Петербург
+M3162,ИП Александров Н.И.,IP ALEKSANDROV,5541,pos,RUB,Москва
+M3163,ИП Ковалёв С.И.,IP KOVALEV,5814,pos,RUB,Москва
+M3164,АЗС «Регион-38»,AZS REGION-38,5541,pos,RUB,Москва
+M3165,ИП Медведев А.Н.,IP MEDVEDEV,5814,pos,RUB,Казань
+M3166,ИП Филиппов П.В.,IP FILIPPOV,4900,pos,RUB,Казань
+M3167,Аптека №944,APTEKA 944,5912,pos,RUB,Нижний Новгород
+M3168,ИП Фролов Р.Е.,IP FROLOV,5912,pos,RUB,Москва
+M3169,ООО «Каскад»,OOO KASKAD,5732,pos,RUB,Москва
+M3170,Аптека №797,APTEKA 797,5912,pos,RUB,Воронеж
+M3171,Кафе «Крендель»,CAFE KRENDEL,5812,ecom,RUB,Казань
+M3172,ООО «Агат»,OOO AGAT,4900,ecom,RUB,Москва
+M3173,ИП Кузнецов И.И.,IP KUZNETSOV,4900,pos,RUB,Москва
+M3174,АЗС «Регион-79»,AZS REGION-79,5541,pos,RUB,Екатеринбург
+M3175,ООО «Вектор»,OOO VEKTOR,4900,pos,RUB,Москва
+M3176,ИП Степанов П.Е.,IP STEPANOV,5999,pos,RUB,Санкт-Петербург
+M3177,Аптека №237,APTEKA 237,5912,pos,RUB,Ростов-на-Дону
+M3178,ИП Макаров П.Н.,IP MAKAROV,5732,pos,RUB,Москва
+M3179,ООО «Юпитер»,OOO YUPITER,5651,pos,RUB,Новосибирск
+M3180,ИП Баранов К.И.,IP BARANOV,5651,pos,RUB,Иркутск
+M3181,ИП Давыдов К.А.,IP DAVYDOV,5999,pos,RUB,Калининград
+M3182,ИП Виноградов Н.А.,IP VINOGRADOV,5541,pos,RUB,Тюмень
+M3183,ИП Баранов Р.И.,IP BARANOV,5999,pos,RUB,Нижний Новгород
+M3184,ООО «Юпитер»,OOO YUPITER,5732,pos,RUB,Тюмень
+M3185,ООО «Форум»,OOO FORUM,5999,pos,RUB,Ростов-на-Дону
+M3186,ИП Ковалёв С.А.,IP KOVALEV,5812,pos,RUB,Екатеринбург
+M3187,ООО «Прогресс»,OOO PROGRESS,5921,pos,RUB,Санкт-Петербург
+M3188,ИП Фролов С.Н.,IP FROLOV,5921,pos,RUB,Москва
+M3189,Кафе «Минутка»,CAFE MINUTKA,5812,pos,RUB,Москва
+M3190,ООО «Дельта»,OOO DELTA,5942,pos,RUB,Краснодар
+M3191,АЗС «Регион-60»,AZS REGION-60,5541,pos,RUB,Уфа
+M3192,Кафе «Облепиха»,CAFE OBLEPIKHA,5814,pos,RUB,Красноярск
+M3193,ИП Степанов И.И.,IP STEPANOV,5999,pos,RUB,Ростов-на-Дону
+M3194,ООО «Родник»,OOO RODNIK,5814,pos,RUB,Москва
+M3195,ООО «Сапфир»,OOO SAPFIR,5541,pos,RUB,Самара
+M3196,ООО «Прогресс»,OOO PROGRESS,5999,pos,RUB,Воронеж
+M3197,ООО «Меркурий»,OOO MERKURIY,5651,pos,RUB,Красноярск
+M3198,Аптека №848,APTEKA 848,5912,pos,RUB,Екатеринбург
+M3199,Аптека №764,APTEKA 764,5912,ecom,RUB,Москва
+M3200,ООО «Салют»,OOO SALYUT,5921,pos,RUB,Нижний Новгород
+M3201,Аптека №131,APTEKA 131,5912,pos,RUB,Санкт-Петербург
+M3202,АЗС «Регион-63»,AZS REGION-63,5541,pos,RUB,Санкт-Петербург
+M3203,ООО «Рубин»,OOO RUBIN,4900,ecom,RUB,Уфа
+M3204,АЗС «Регион-89»,AZS REGION-89,5541,pos,RUB,Ростов-на-Дону
+M3205,Кафе «Восход»,CAFE VOSKHOD,5814,pos,RUB,Казань
+M3206,ИП Гусев К.А.,IP GUSEV,5411,pos,RUB,Ставрополь
+M3207,Кафе «Самовар»,CAFE SAMOVAR,5814,pos,RUB,Москва
+M3208,Кафе «Ковчег»,CAFE KOVCHEG,5814,ecom,RUB,Москва
+M3209,АЗС «Регион-20»,AZS REGION-20,5541,pos,RUB,Москва
+M3210,Аптека №221,APTEKA 221,5912,pos,RUB,Самара
+M3211,ИП Александров С.А.,IP ALEKSANDROV,5812,pos,RUB,Краснодар
+M3212,ИП Баранов М.Н.,IP BARANOV,5999,pos,RUB,Москва
+M3213,ООО «Ромашка»,OOO ROMASHKA,5411,pos,RUB,Екатеринбург
+M3214,Аптека №408,APTEKA 408,5912,pos,RUB,Москва
+M3215,ИП Степанов Р.И.,IP STEPANOV,5411,pos,RUB,Воронеж
+M3216,АЗС «Регион-39»,AZS REGION-39,5541,pos,RUB,Москва
+M3217,ООО «Альянс»,OOO ALYANS,5942,pos,RUB,Санкт-Петербург
+M3218,Аптека №935,APTEKA 935,5912,pos,RUB,Иркутск
+M3219,ИП Поляков А.А.,IP POLYAKOV,5942,pos,RUB,Краснодар
+M3220,ИП Сергеев Р.Н.,IP SERGEEV,5999,pos,RUB,Казань
+M3221,ООО «Импульс»,OOO IMPULS,5651,pos,RUB,Москва
+M3222,АЗС «Регион-90»,AZS REGION-90,5541,pos,RUB,Москва
+M3223,ИП Шевченко Е.В.,IP SHEVCHENKO,5812,pos,RUB,Санкт-Петербург
+M3224,Кафе «Маяк»,CAFE MAYAK,5814,pos,RUB,Казань
+M3225,АЗС «Регион-51»,AZS REGION-51,5541,pos,RUB,Москва
+M3226,Кафе «Вишня»,CAFE VISHNYA,5812,pos,RUB,Москва
+M3227,АЗС «Регион-99»,AZS REGION-99,5541,pos,RUB,Волгоград
+M3228,АЗС «Регион-67»,AZS REGION-67,5541,pos,RUB,Москва
+M3229,ООО «Топаз»,OOO TOPAZ,5999,ecom,RUB,Нижний Новгород
+M3230,ИП Попов Р.В.,IP POPOV,5812,pos,RUB,Москва
+M3231,Кафе «Лаванда»,CAFE LAVANDA,5814,pos,RUB,Владивосток
+M3232,ИП Сорокин А.И.,IP SOROKIN,5921,pos,RUB,Уфа
+M3233,Кафе «Крендель»,CAFE KRENDEL,5814,pos,RUB,Краснодар
+M3234,АЗС «Регион-46»,AZS REGION-46,5541,ecom,RUB,Ижевск
+M3235,ИП Тарасов Н.Е.,IP TARASOV,5942,pos,RUB,Санкт-Петербург
+M3236,Кафе «Абрикос»,CAFE ABRIKOS,5812,pos,RUB,Москва
+M3237,Кафе «Причал»,CAFE PRICHAL,5814,ecom,RUB,Москва
+M3238,ИП Зайцев М.В.,IP ZAYTSEV,5942,ecom,RUB,Москва
+M3239,ООО «Титан»,OOO TITAN,5921,pos,RUB,Самара
+M3240,Аптека №296,APTEKA 296,5912,pos,RUB,Воронеж
+M3241,ИП Давыдов С.А.,IP DAVYDOV,5651,pos,RUB,Пермь
+M3242,АЗС «Регион-85»,AZS REGION-85,5541,pos,RUB,Москва
+M3243,АЗС «Регион-19»,AZS REGION-19,5541,pos,RUB,Санкт-Петербург
+M3244,ИП Борисов К.Е.,IP BORISOV,5541,pos,RUB,Москва
+M3245,Аптека №846,APTEKA 846,5912,pos,RUB,Москва
+M3246,ООО «Форум»,OOO FORUM,5942,pos,RUB,Красноярск
+M3247,ИП Яковлев С.Е.,IP YAKOVLEV,4900,pos,RUB,Москва
+M3248,Кафе «Лаванда»,CAFE LAVANDA,5812,pos,RUB,Ростов-на-Дону
+M3249,ИП Морозов П.Е.,IP MOROZOV,5942,pos,RUB,Екатеринбург
+M3250,Аптека №224,APTEKA 224,5912,pos,RUB,Москва
+M3251,ИП Попов М.Е.,IP POPOV,5912,pos,RUB,Тюмень
+M3252,Аптека №561,APTEKA 561,5912,pos,RUB,Москва
+M3253,Кафе «Облепиха»,CAFE OBLEPIKHA,5814,pos,RUB,Екатеринбург
+M3254,ООО «Гранат»,OOO GRANAT,5912,pos,RUB,Тюмень
+M3255,Кафе «Полянка»,CAFE POLYANKA,5814,ecom,RUB,Краснодар
+M3256,Аптека №961,APTEKA 961,5912,pos,RUB,Краснодар
+M3257,ИП Егоров Р.Н.,IP EGOROV,5814,pos,RUB,Самара
+M3258,Аптека №470,APTEKA 470,5912,pos,RUB,Санкт-Петербург
+M3259,ИП Баранов Е.В.,IP BARANOV,5732,pos,RUB,Воронеж
+M3260,ООО «Зенит»,OOO ZENIT,5812,pos,RUB,Санкт-Петербург
+M3261,ООО «Ромашка»,OOO ROMASHKA,5942,pos,RUB,Краснодар
+M3262,ИП Дмитриев К.В.,IP DMITRIEV,5651,pos,RUB,Саратов
+M3263,АЗС «Регион-95»,AZS REGION-95,5541,pos,RUB,Москва
+M3264,Кафе «Бриз»,CAFE BRIZ,5814,pos,RUB,Казань
+M3265,Кафе «Полянка»,CAFE POLYANKA,5812,pos,RUB,Москва
+M3266,ООО «Дельта»,OOO DELTA,5814,pos,RUB,Екатеринбург
+M3267,ИП Александров Е.А.,IP ALEKSANDROV,5732,pos,RUB,Санкт-Петербург
+M3268,Кафе «Лаванда»,CAFE LAVANDA,5814,pos,RUB,Екатеринбург
+M3269,ИП Поляков М.В.,IP POLYAKOV,5541,pos,RUB,Новосибирск
+M3270,ООО «Сапфир»,OOO SAPFIR,5814,pos,RUB,Новосибирск
+M3271,ИП Жуков А.В.,IP ZHUKOV,5732,ecom,RUB,Екатеринбург
+M3272,АЗС «Регион-41»,AZS REGION-41,5541,pos,RUB,Москва
+M3273,Аптека №574,APTEKA 574,5912,pos,RUB,Москва
+M3274,Кафе «Лаванда»,CAFE LAVANDA,5814,pos,RUB,Москва
+M3275,Аптека №206,APTEKA 206,5912,pos,RUB,Москва
+M3276,Аптека №500,APTEKA 500,5912,ecom,RUB,Москва
+M3277,Кафе «Полянка»,CAFE POLYANKA,5812,pos,RUB,Уфа
+M3278,Кафе «Крендель»,CAFE KRENDEL,5814,pos,RUB,Ставрополь
+M3279,Кафе «Самовар»,CAFE SAMOVAR,5812,pos,RUB,Самара
+M3280,Аптека №192,APTEKA 192,5912,pos,RUB,Краснодар
+M3281,АЗС «Регион-24»,AZS REGION-24,5541,pos,RUB,Уфа
+M3282,ООО «Рубин»,OOO RUBIN,5999,pos,RUB,Санкт-Петербург
+M3283,ИП Ильин О.В.,IP ILIN,5812,pos,RUB,Москва
+M3284,ООО «Титан»,OOO TITAN,5912,pos,RUB,Санкт-Петербург
+M3285,Аптека №182,APTEKA 182,5912,ecom,RUB,Казань
+M3286,АЗС «Регион-29»,AZS REGION-29,5541,pos,RUB,Самара
+M3287,ИП Комаров М.Н.,IP KOMAROV,5921,pos,RUB,Москва
+M3288,ИП Баранов С.Е.,IP BARANOV,5921,pos,RUB,Нижний Новгород
+M3289,ООО «Альянс»,OOO ALYANS,5999,pos,RUB,Москва
+M3290,ООО «Гранат»,OOO GRANAT,5942,pos,RUB,Воронеж
+M3291,АЗС «Регион-96»,AZS REGION-96,5541,pos,RUB,Ростов-на-Дону
+M3292,ООО «Импульс»,OOO IMPULS,5921,pos,RUB,Москва
+M3293,ИП Захаров О.Е.,IP ZAKHAROV,5411,pos,RUB,Воронеж
+M3294,ИП Иванов С.И.,IP IVANOV,5732,pos,RUB,Пермь
+M3295,Аптека №976,APTEKA 976,5912,pos,RUB,Санкт-Петербург
+M3296,ИП Козлов С.Н.,IP KOZLOV,5651,pos,RUB,Москва
+M3297,ООО «Импульс»,OOO IMPULS,5411,pos,RUB,Москва
+M3298,ИП Баранов О.А.,IP BARANOV,5732,pos,RUB,Москва
+M3299,ООО «Атлант»,OOO ATLANT,5921,pos,RUB,Казань
+M3300,ИП Иванов К.В.,IP IVANOV,5732,pos,RUB,Новосибирск
+M3301,ИП Тарасов О.А.,IP TARASOV,5912,pos,RUB,Иннополис
+M3302,АЗС «Регион-34»,AZS REGION-34,5541,pos,RUB,Санкт-Петербург
+M3303,Кафе «Барбарис»,CAFE BARBARIS,5814,pos,RUB,Калининград
+M3304,ООО «Импульс»,OOO IMPULS,5912,pos,RUB,Новосибирск
+M3305,ООО «Агат»,OOO AGAT,5942,ecom,RUB,Казань
+M3306,АЗС «Регион-20»,AZS REGION-20,5541,pos,RUB,Казань
+M3307,ООО «Титан»,OOO TITAN,5651,pos,RUB,Москва
+M3308,АЗС «Регион-75»,AZS REGION-75,5541,pos,RUB,Москва
+M3309,ИП Белов Р.И.,IP BELOV,5921,ecom,RUB,Москва
+M3310,Аптека №638,APTEKA 638,5912,pos,RUB,Красноярск
+M3311,ИП Шевченко Н.Н.,IP SHEVCHENKO,5541,pos,RUB,Москва
+M3312,Кафе «Шафран»,CAFE SHAFRAN,5812,pos,RUB,Москва
+M3313,ООО «Эверест»,OOO EVEREST,5814,pos,RUB,Екатеринбург
+M3314,Кафе «Облепиха»,CAFE OBLEPIKHA,5812,pos,RUB,Москва
+M3315,Кафе «Абрикос»,CAFE ABRIKOS,5812,pos,RUB,Волгоград
+M3316,АЗС «Регион-45»,AZS REGION-45,5541,pos,RUB,Москва
+M3317,ИП Попов С.И.,IP POPOV,5814,pos,RUB,Санкт-Петербург
+M3318,АЗС «Регион-86»,AZS REGION-86,5541,pos,RUB,Воронеж
+M3319,Кафе «Полянка»,CAFE POLYANKA,5814,pos,RUB,Екатеринбург
+M3320,Кафе «Барбарис»,CAFE BARBARIS,5812,pos,RUB,Хабаровск
+M3321,Кафе «Черника»,CAFE CHERNIKA,5812,ecom,RUB,Москва
+M3322,Аптека №882,APTEKA 882,5912,pos,RUB,Москва
+M3323,Аптека №644,APTEKA 644,5912,pos,RUB,Москва
+M3324,ИП Волков А.А.,IP VOLKOV,5732,ecom,RUB,Новосибирск
+M3325,Кафе «Ковчег»,CAFE KOVCHEG,5814,pos,RUB,Москва
+M3326,Кафе «Причал»,CAFE PRICHAL,5814,pos,RUB,Нижний Новгород
+M3327,ООО «Эверест»,OOO EVEREST,5942,pos,RUB,Сочи
+M3328,ООО «Сапфир»,OOO SAPFIR,5812,pos,RUB,Уфа
+M3329,АЗС «Регион-12»,AZS REGION-12,5541,pos,RUB,Ростов-на-Дону
+M3330,АЗС «Регион-54»,AZS REGION-54,5541,pos,RUB,Краснодар
+M3331,Кафе «Веранда»,CAFE VERANDA,5812,pos,RUB,Казань
+M3332,АЗС «Регион-38»,AZS REGION-38,5541,pos,RUB,Тюмень
+M3333,ИП Киселёв А.Е.,IP KISELEV,5651,pos,RUB,Казань
+M3334,ООО «Фрегат»,OOO FREGAT,5999,pos,RUB,Красноярск
+M3335,ООО «Альянс»,OOO ALYANS,5942,pos,RUB,Санкт-Петербург
+M3336,ООО «Ромашка»,OOO ROMASHKA,5942,pos,RUB,Пермь
+M3337,ИП Кравченко С.В.,IP KRAVCHENKO,5921,pos,RUB,Москва
+M3338,Кафе «Минутка»,CAFE MINUTKA,5812,pos,RUB,Пермь
+M3339,ИП Сергеев И.И.,IP SERGEEV,5814,pos,RUB,Москва
+M3340,ООО «Форум»,OOO FORUM,5812,pos,RUB,Санкт-Петербург
+M3341,Кафе «Вишня»,CAFE VISHNYA,5812,pos,RUB,Москва
+M3342,ООО «Юпитер»,OOO YUPITER,5732,pos,RUB,Воронеж
+M3343,АЗС «Регион-34»,AZS REGION-34,5541,pos,RUB,Иркутск
+M3344,ИП Соловьёв А.В.,IP SOLOVEV,5942,pos,RUB,Москва
+M3345,ООО «Меркурий»,OOO MERKURIY,5732,pos,RUB,Москва
+M3346,АЗС «Регион-58»,AZS REGION-58,5541,pos,RUB,Москва
+M3347,ИП Морозов Е.Е.,IP MOROZOV,5651,pos,RUB,Санкт-Петербург
+M3348,Кафе «Черника»,CAFE CHERNIKA,5814,pos,RUB,Самара
