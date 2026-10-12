@@ -25,7 +25,8 @@ def main():
     bst_root = None
     for val in [8, 4, 12, 2, 6, 10, 14]:
         bst_root = insert(bst_root, val)
-    print(f"Inorder: {inorder(bst_root)}")
+    print(f"Дерево построено, корень: {bst_root.key}")
+    print(f"Проверка inorder: {inorder(bst_root)}")
 
 # ---------------------------------------------------------------------------------------------------
 
@@ -41,11 +42,11 @@ def main():
     print(f"Preorder:  {preorder(bst_root)}")
     print(f"Inorder:   {inorder(bst_root)}")
     print(f"Postorder: {postorder(bst_root)}")
-    print("Inorder даёт отсортированную последовательность, т.к. сначала обходится левое поддерево (меньшие), потом корень, потом правое (большие).")
 
 # ---------------------------------------------------------------------------------------------------
 
     print("\n--- Задание 5: Удаление из BST ---")
+    print(f"Исходное дерево (inorder): {inorder(bst_root)}")
     bst_root = delete(bst_root, 2)
     print(f"Удалён лист 2, inorder: {inorder(bst_root)}")
 
@@ -82,25 +83,25 @@ def main():
     avl = None
     for val in [30, 20, 10]:
         avl = avl_insert(avl, val)
-    print(f"LL (30,20,10): inorder={avl_inorder(avl)}, корень={avl.key}")
+    print(f"LL (30,20,10): inorder={avl_inorder(avl)}, корень={avl.key}, баланс={get_balance(avl)}")
 
     # RR
     avl = None
     for val in [10, 20, 30]:
         avl = avl_insert(avl, val)
-    print(f"RR (10,20,30): inorder={avl_inorder(avl)}, корень={avl.key}")
+    print(f"RR (10,20,30): inorder={avl_inorder(avl)}, корень={avl.key}, баланс={get_balance(avl)}")
 
     # LR
     avl = None
     for val in [30, 10, 20]:
         avl = avl_insert(avl, val)
-    print(f"LR (30,10,20): inorder={avl_inorder(avl)}, корень={avl.key}")
+    print(f"LR (30,10,20): inorder={avl_inorder(avl)}, корень={avl.key}, баланс={get_balance(avl)}")
 
     # RL
     avl = None
     for val in [10, 30, 20]:
         avl = avl_insert(avl, val)
-    print(f"RL (10,30,20): inorder={avl_inorder(avl)}, корень={avl.key}")
+    print(f"RL (10,30,20): inorder={avl_inorder(avl)}, корень={avl.key}, баланс={get_balance(avl)}")
 
 # ---------------------------------------------------------------------------------------------------
 
@@ -157,6 +158,7 @@ def main():
     fenwick_res = ft.range_sum(50, 52)
     real_res = sum(data[49:52])
     print(f"После обновления data[50]={new_val}: Фенвик={fenwick_res}, sum()={real_res}")
+    print("Операция i & -i выделяет младший установленный бит числа i, определяя размер блока, за который отвечает элемент дерева.")
 
 # ---------------------------------------------------------------------------------------------------
 

@@ -1,0 +1,5 @@
+duckdb==1.5.5
+pyarrow>=21
+fastavro>=1.11
+polars>=1.30
+pandas>=2.2
