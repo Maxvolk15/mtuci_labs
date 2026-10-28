@@ -1,5 +1,0 @@
-.venv/
-data/
-formats.duckdb
-formats.duckdb.wal
-__pycache__/
